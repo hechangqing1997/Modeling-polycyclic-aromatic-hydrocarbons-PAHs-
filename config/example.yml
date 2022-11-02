@@ -1,0 +1,63 @@
+
+ParameterGroup:
+  num: 1
+
+Ben_Core_Base:
+  core_number: 1.93021214
+  ben:
+    avg_number: 8
+    g_stride: 0.2
+    g_stride_num: 20
+
+  c_aromatic:
+    avg_number: 67.31951876
+    g_stride: 0.4
+    g_stride_num: 20
+#Benzene:
+#  avg_number: 16.32987969
+#  sample_method: gamma_sample
+Cyclohexane:
+  avg_number: 2.010360933
+  g_stride: 0.1
+  g_stride_num: 10
+
+
+Furan:
+  avg_number: 1
+  g_stride: 0.025
+  g_stride_num: 5
+ 
+Thiophene:
+  avg_number: 0
+  g_stride: 0.025
+  g_stride_num: 5
+
+Pyrrole:
+  avg_number: 1
+  g_stride: 0.025
+  g_stride_num: 5
+
+
+Aliphatic_chain:
+  avg_number: 2
+  avg_length: 5
+  g_stride: 0.15
+  g_stride_num: 5
+  sample_method: uniform_sample
+ 
+  chain_length:
+    avg_number: 5
+    g_stride: 0.15
+    g_stride_num: 10
+
+
+
+
+
+
+
+
+#Sample_method:
+#  - method: gamma_sample
+#    proability: 1.0
+

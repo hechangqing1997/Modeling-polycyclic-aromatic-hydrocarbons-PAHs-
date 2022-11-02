@@ -1,0 +1,52 @@
+BenCore:
+  avg_number: 1.93021214
+
+Benzene:
+  avg_number: 10
+  sample_method: gamma_sample
+Cyclohexane:
+
+  avg_number: 3
+  sample_method: gamma_sample
+Pyridine:
+  avg_number: 0.35
+  sample_method: gamma_sample
+Furan:
+  avg_number: 0.35
+  sample_method: gamma_sample
+Thiophene:
+  avg_number: 1
+  sample_method: gamma_sample
+Pyrrole:
+  avg_number: 0.35
+  sample_method: gamma_sample
+
+
+
+Aliphatic_chain:
+  avg_number: 3
+  avg_length: 8
+  sample_method: gamma_sample
+
+yafeng:
+  avg_number: 1.0
+  sample_method: gamma_sample
+
+
+Ben_Core_Base:
+  core_number: 1.93021214
+  ben:
+    avg_number: 16
+  C_aromatic:
+    avg_number: 67.31951876
+    thread: [-0.2,0.2]
+
+
+
+
+
+
+#Sample_method:
+#  - method: gamma_sample
+#    proability: 1.0
+
